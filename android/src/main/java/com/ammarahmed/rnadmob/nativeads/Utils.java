@@ -86,13 +86,13 @@ public class Utils {
     }
 
     public static void setRequestNonPersonalizedAdsOnly(boolean npa, AdManagerAdRequest.Builder adRequest) {
-        Bundle extras = new Bundle();
-        if (npa) {
-            extras.putString("npa", "1");
-        } else {
-            extras.putString("npa", "0");
-        }
-        adRequest.addNetworkExtrasBundle(AdMobAdapter.class, extras);
+//        Bundle extras = new Bundle();
+//        if (npa) {
+//            extras.putString("npa", "1");
+//        } else {
+//            extras.putString("npa", "0");
+//        }
+//        adRequest.addNetworkExtrasBundle(AdMobAdapter.class, extras);
 
     }
 }
